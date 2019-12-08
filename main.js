@@ -6,7 +6,8 @@ $(function(){
     $('#btn').click(function(){
         var link = $('#link').val();
         var username = $('#username').val();
-        var content = $('#content').val();
+        var content = $('#content1').val();
+        var content
         if (link==null || link=="",content==null || content=="")
         {
             alert("Please Fill Out All The Fields");
